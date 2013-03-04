@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/rca/.vim'
+let g:netrw_dirhist_2='/Users/rca/blogs/octopress/sass'
+let g:netrw_dirhist_3='/Users/rca/workspace/feather'
+let g:netrw_dirhist_4='/Users/rca'
+let g:netrw_dirhist_5='/Users/rca/workspace/feather'
+let g:netrw_dirhist_6='/Users/rca/workspace/consumer-search'
