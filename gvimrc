@@ -19,10 +19,7 @@ set smartindent
 set backspace=indent,eol,start
 
 colorscheme elflord
-
-if has("gui_running")
-    set transparency=15
-endif
+set transparency=25
 
 " set guifont=Monaco:h14
 
@@ -35,5 +32,5 @@ map <C-O> :so ~/.vimrc<CR>
 map <F3> :NERDTreeToggle<CR>
 map <C-X> :CtrlPMRU<CR>
 
-set guifont=Menlo\ for\ Powerline:h14
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set guifont=Menlo\ for\ Powerline:h14
