@@ -8,6 +8,7 @@ set linebreak
 set number
 set ruler
 
+set showcmd
 set hlsearch
 set incsearch
 set expandtab
@@ -21,7 +22,7 @@ set backspace=indent,eol,start
 colorscheme elflord
 
 if has("gui_running")
-    set transparency=15
+    set transparency=5
 endif
 
 " set guifont=Monaco:h14
@@ -29,6 +30,24 @@ endif
 set rtp+=/Users/rca/.vim/autoload/powerline/powerline/bindings/vim
 set laststatus=2
 set noshowmode
+
+filetype off
+set rtp+=~/.vim/bundle/vbundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'stomtom/tcomment_vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'garbas/vim-snipmate'
+Bundle 'gmattn/zencoding-vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'honza/snipmate-snippets'
+Bundle 'htomtom/tlib_vim'
+
+filetype plugin indent on
 
 map <F10> :e ~/.vimrc<CR>
 map <C-O> :so ~/.vimrc<CR>
