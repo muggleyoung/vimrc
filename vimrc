@@ -39,13 +39,12 @@ Bundle 'gmarik/vundle'
 
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'stomtom/tcomment_vim'
+Bundle 'tomtom/tcomment_vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'garbas/vim-snipmate'
-Bundle 'gmattn/zencoding-vim'
 Bundle 'kien/ctrlp.vim'
-Bundle 'honza/snipmate-snippets'
-Bundle 'htomtom/tlib_vim'
+Bundle 'honza/vim-snippets'
+Bundle 'tomtom/tlib_vim'
+Bundle 'mattn/emmet-vim.git'
 
 filetype plugin indent on
 
